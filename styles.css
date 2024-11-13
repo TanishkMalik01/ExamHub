@@ -1,0 +1,162 @@
+/*General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Apply Gradient Background to the Entire Body */
+body {
+    background: linear-gradient(180deg, #2CA8D8, #D9514F);
+    color: #ffffff;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2c3e50;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+
+/* About Page Styling */
+.about-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffffff;
+    /* Light gray background */
+    color: #2c3e50;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section .subtitle {
+    font-size: 24px;
+    color: #34495e;
+    margin-bottom: 30px;
+}
+
+/* Accordion Section */
+.accordion {
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.accordion-header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.accordion-header:hover {
+    background-color: #32a5d4;
+}
+
+.accordion-content {
+    display: none;
+    padding: 0;
+}
+
+.accordion-content.open {
+    display: block;
+    padding: 15px;
+}
+
+.inner-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Info Button */
+.info-button {
+    background-image: url('info-icon.png');
+    background-size: 16px 16px;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+}
+
+.info-button:hover {
+    background-color: #3e8e41;
+}
+
+/* Contact Information */
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    font-size: 16px;
+}

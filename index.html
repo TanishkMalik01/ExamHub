@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamlining Coaching Institutes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <a href="index.html" class="logo">Exam Hub</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <div class="about-section content">
+        <h1>Streamlining Coaching Institutes with Exam Hub</h1>
+        <p class="subtitle">Revolutionizing Test Management and Digitalization</p>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">Increased Efficiency</div>
+                <div class="accordion-content">
+                    <div class="inner-content">
+                        <p>Automate test scheduling, administration, and result processing to save time and effort.</p>
+                        <p> <a href="efficiency.html" target="_blank"> <button class="info-button">Click here for more info</button> </a> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Improved Accuracy</div>
+                <div class="accordion-content">
+                    <div class="inner-content">
+                        <p>Eliminate manual errors with automated result processing and reliable reporting.</p>
+                        <p> <a href="accuracy.html" target="_blank"> <button class="info-button">Click here for more info</button> </a> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Enhanced Student Experience</div>
+                <div class="accordion-content">
+                    <div class="inner-content">
+                        <p>Provide personalized performance analytics and feedback for each student.</p>
+                        <p> <a href="student-experience.html" target="_blank"> <button class="info-button">Click here for more info</button> </a> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Data-Driven Insights</div>
+                <div class="accordion-content">
+                    <div class="inner-content">
+                        <p>Gain valuable insights into student performance trends for informed decision-making.</p>
+                        <p> <a href="data-insights.html" target="_blank"> <button class="info-button">Click here for more info</button> </a> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Environmental Sustainability</div>
+                <div class="accordion-content">
+                    <div class="inner-content">
+                        <p>Switch to paperless testing to reduce waste and promote eco-friendly practices.</p>
+                        <p> <a href="environment.html" target="_blank"> <button class="info-button">Click here for more info</button> </a> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Digitalization of Test-Related Work</div>
+                <div class="accordion-content">
+                    <div class="inner-content">
+                        <p>Digitize test creation, distribution, and grading for a more efficient workflow.</p>
+                        <p> <a href="digitalization.html" target="_blank"> <button class="info-button">Click here for more info</button> </a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Mobile Number:</strong> +91 81715 47132</p>
+            <p><strong>Address:</strong> MIET Incubation Forum, NH-58, Meerut</p>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2024 Exam Hub</p>
+    </footer>
+    <script>
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                content.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>
